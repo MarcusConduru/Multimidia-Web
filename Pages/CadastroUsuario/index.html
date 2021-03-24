@@ -1,0 +1,55 @@
+<!-- ALTERADO -->
+
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../Global/style.css">
+</head>
+<body>  
+    <header class="header">
+        <a href="../TabelaApresentação/index.html">
+            <div class="header__container">
+                <div class="header__flip1 header__div">
+                    <img src="../../img/Card-From.png" width="30" height="50" />
+                </div>
+                <div class="header__flip2 header__div">
+                    <img src="../../img/Card-Back.jpg" width="30" height="50" />
+                </div>
+             </div>
+        </a>
+
+        <div>
+            <a href="../Menu/index.html" class="header__menu">Menu</a>
+            <a href="../CadastroTabela/index.html" class="header__alterar">Adicionar informações</a>
+            <a href="../Login/index.html" class="header__login">Login</a>
+        </div>
+    </header>
+
+    <section class="section__user">
+        
+
+        <form action="">
+            <fieldset class="user__fiel">
+                <!-- só use esse legend caso seja o formulario de editar o usuario  -->
+                <legend class="user__name">Username</legend>
+                <div class="user__form">
+                    <div class="user__group">
+                        <label for="iuser" class="user__label">Usuário</label>
+                        <input type="text"  name="nuser" id="iuser"  class="user__input">
+                    </div>
+
+                    <div class="user__group">
+                        <label for="isenha" class="user__label">Senha</label>
+                        <input type="text" name="nsenha" id="isenha" class="user__input">
+                    </div>
+                </div>
+            </fieldset>
+            <button type="submit" class="btn">Criar</button>
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!-- ALTERADO -->
+
+<!DOCTYPE html>
+<html lang="br-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../Global/style.css">
+</head>
+<body>  
+    <header class="header">
+        <a href="../TabelaApresentação/index.html">
+            <div class="header__container">
+                <div class="header__flip1 header__div">
+                    <img src="../../img/Card-From.png" width="30" height="50" />
+                </div>
+                <div class="header__flip2 header__div">
+                    <img src="../../img/Card-Back.jpg" width="30" height="50" />
+                </div>
+             </div>
+        </a>
+
+        <div>
+            <a href="../Menu/index.html" class="header__menu">Menu</a>
+            <a href="../CadastroTabela/index.html" class="header__alterar">Adicionar informações</a>
+            <a href="../Login/index.html" class="header__login">Login</a>
+        </div>
+    </header>
+
+    <table class="container" id="tabela">
+        <thead>
+            <tr class="container__tr">
+                <th class="container__th"><h2 class="container__secondary">Usuário</h2></th>
+                <th class="container__th"><h2 class="container__secondary">Senha</h2></th>
+                <th class="container__th"><h2 class="container__secondary">Editar</h2></th>
+                <th class="container__th"><h2 class="container__secondary">Apagar</h2></th>
+                <th class="container__th"><h2 class="container__secondary">Ver tabela</h2></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- informações tabela -->
+            <tr class="container__tr">
+                <td class="container__td">chimbocamainha</td>
+                <td class="container__td">MelByLaw</td>
+                <td class="container__td"><a href="#" class="edition center"></a></td>
+                <td class="container__td"><a href="#popup" class="delete center"></a></td>
+                <td class="container__td">
+                    <!-- OLHO DE TANDERA -->
+                    <a href="../TabelaApresentação/index.html" class="container__olho">
+                            <div class="container__cornea"></div>
+                            <div class="container__triangulo"></div>
+                            <div class="container__pupila"></div>
+                            <div class="container__diagonal--esquerdo"></div>
+                            <div class="container__diagonal--direito"></div>
+                            <div class="container__reta--inferior"></div>
+                            <div class="container__reta--dupla"></div>
+                            <div class="container__reta--central"></div>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <div class="popup" id="popup">
+        <div class="popup__container">
+            
+            <div class="popup__group">
+                <p class="popup__paragh">Deseja apagar?</p>
+                <div class="popup__group--link">
+                    <form action=""></form>
+                    <button class="popup__confirm"></button>
+                    <a class="delete" href="#tabela"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
